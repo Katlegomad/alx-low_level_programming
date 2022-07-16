@@ -4,33 +4,20 @@
  * Prints alpha in lower and uppercase
  * Return: 0 on success
  */
-int main()
+int main(void)
 {
-	char start = 'a';
-	char end = 'z';
-
-	char ch = start;
-
-	while (ch <= end)
+	char alpha = 'a';
+	while (alpha <= 'z')
 	{
-		putchar(ch);
-		ch++;
-
+	putchar(alpha);
+	alpha++;
 	}
-
-	char start = 'A';
-	char end = 'z';
-
-	char ch = start;
-
-	while (ch <= end)
+	alpha = 'A';
+	while (alpha <= 'Z')
 	{
-		putchar(ch);
-		ch++;
-
+	putchar(alpha);
+	alpha++;
 	}
-
-		putchar('\n')
-
+	putchar('\n');
 	return (0);
 }
