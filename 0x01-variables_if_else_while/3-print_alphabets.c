@@ -4,7 +4,7 @@
  * Prints alpha in lower and uppercase
  * Return: 0 on success
  */
-int main(void)
+int main()
 {
 	char start = 'a';
 	char end = 'z';
@@ -17,7 +17,7 @@ int main(void)
 		ch++;
 
 	}
-{
+
 	char start = 'A';
 	char end = 'z';
 
@@ -29,8 +29,8 @@ int main(void)
 		ch++;
 
 	}
-}
+
 		putchar('\n')
-	
+
 	return (0);
 }
